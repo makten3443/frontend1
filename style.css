@@ -1,0 +1,15 @@
+.gridContainer{
+    margin: 0;
+    padding: 0;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-column-gap: 5px;
+    grid-template-rows: 300px 300px 300px 300px;
+    grid-row-gap: 5px;
+}
+.griditems{
+    background: blue;
+    height: 150px;
+}
+
